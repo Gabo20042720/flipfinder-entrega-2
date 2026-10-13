@@ -1,0 +1,13 @@
+:root { --ff-indigo: #2b2d6e; --ff-yellow: #ffc83d; }
+body { background: #f6f6fa; }
+.ff-header { background: #fff; border-bottom: 1px solid #e3e3ee; position: sticky; top: 0; z-index: 10; }
+.ff-brand { font-weight: 700; color: var(--ff-indigo); }
+.ff-logo { display: inline-grid; place-items: center; width: 30px; height: 30px; border-radius: 8px; background: var(--ff-indigo); color: var(--ff-yellow); }
+.ff-hero { background: linear-gradient(135deg, var(--ff-indigo), #4a4db3); }
+.ff-card-img { height: 160px; object-fit: contain; background: #fff; padding: 8px; }
+.ff-detail-img { max-height: 380px; width: 100%; object-fit: contain; background: #fff; }
+.ff-cat-card:hover { box-shadow: 0 4px 12px rgba(0,0,0,.12); }
+.ff-footer { background: var(--ff-indigo); color: #fff; }
+.ff-admin { min-height: 70vh; }
+.ff-sidebar { background: #fff; border-right: 1px solid #e3e3ee; height: 100%; }
+@media (max-width: 575px) { .ff-card-img { height: 120px; } }
